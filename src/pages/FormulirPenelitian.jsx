@@ -411,7 +411,7 @@ export default function FormulirPenelitian() {
   const handleFileChange = (e) => {
     const { name, files } = e.target; // Mengambil nama dan file dari event target
     const file = files[0]; // Mengambil file pertama dari array files
-    console.log("Cek file: ", file);
+    // console.log("Cek file: ", file);
 
     if (!file) {
       // Jika file dibatalkan (tidak ada file yang dipilih)
@@ -580,27 +580,27 @@ export default function FormulirPenelitian() {
         formData.append("ktpFile", ktpFile);
       }
 
-      // Mengecek data yang dikirim
-      console.log("Data ajuan penelitian:", {
-        letterNumber,
-        name,
-        researcherName,
-        address,
-        inputValue,
-        institution,
-        occupation,
-        judulPenelitian,
-        researchField,
-        tujuanPenelitian,
-        supervisorName,
-        teamMembers,
-        researchPeriod,
-        statusPenelitian,
-        researchLocation,
-        suratPengantarFile,
-        proposalFile,
-        ktpFile,
-      });
+      // // Mengecek data yang dikirim
+      // console.log("Data ajuan penelitian:", {
+      //   letterNumber,
+      //   name,
+      //   researcherName,
+      //   address,
+      //   inputValue,
+      //   institution,
+      //   occupation,
+      //   judulPenelitian,
+      //   researchField,
+      //   tujuanPenelitian,
+      //   supervisorName,
+      //   teamMembers,
+      //   researchPeriod,
+      //   statusPenelitian,
+      //   researchLocation,
+      //   suratPengantarFile,
+      //   proposalFile,
+      //   ktpFile,
+      // });
 
       const response = await axios.post(
         `${import.meta.env.VITE_REACT_APP_SERVER}/api/penelitian`,

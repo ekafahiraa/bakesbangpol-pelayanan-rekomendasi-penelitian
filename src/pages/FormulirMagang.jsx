@@ -357,7 +357,7 @@ export default function FormulirPenelitian() {
   const handleFileChange = (e) => {
     const { name, files } = e.target; // Mengambil nama dan file dari event target
     const file = files[0]; // Mengambil file pertama dari array files
-    console.log("Cek file: ", file);
+    // console.log("Cek file: ", file);
 
     if (!file) {
       // Jika file dibatalkan (tidak ada file yang dipilih)
@@ -520,25 +520,25 @@ export default function FormulirPenelitian() {
         formData.append("ktpFile", ktpFile);
       }
 
-      // Mengecek data yang dikirim
-      console.log("Data ajuan magang:", {
-        letterNumber,
-        applicantsName,
-        address,
-        inputValue,
-        institution,
-        occupation,
-        judul,
-        tujuanPermohonan,
-        supervisorName,
-        teamMembers,
-        period,
-        statusPermohonan,
-        location,
-        suratPermohonanFile,
-        proposalFile,
-        ktpFile,
-      });
+      // // Mengecek data yang dikirim
+      // console.log("Data ajuan magang:", {
+      //   letterNumber,
+      //   applicantsName,
+      //   address,
+      //   inputValue,
+      //   institution,
+      //   occupation,
+      //   judul,
+      //   tujuanPermohonan,
+      //   supervisorName,
+      //   teamMembers,
+      //   period,
+      //   statusPermohonan,
+      //   location,
+      //   suratPermohonanFile,
+      //   proposalFile,
+      //   ktpFile,
+      // });
 
       const response = await axios.post(
         `${import.meta.env.VITE_REACT_APP_SERVER}/api/magang`,
