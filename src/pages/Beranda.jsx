@@ -173,9 +173,10 @@ export default function Beranda() {
             <h2 className="text-4xl md:text-6xl font-bold mb-7 md:mb-9">
               BAKESBANGPOL
             </h2>
-            <p className="text-gray-500 text-base md:text-xl font-medium mb-6">
-              Akses mudah dan cepat ke berbagai layanan yang disediakan oleh
-              Badan Kesatuan Bangsa dan Politik Provinsi Jawa Timur
+            <p className="text-gray-600 text-base md:text-lg font-medium mb-7">
+              Akses mudah dan cepat untuk layanan permohonan perizinan
+              rekomendasi penelitian yang disediakan oleh Badan Kesatuan Bangsa
+              dan Politik Provinsi Jawa Timur.
             </p>
             <button
               onClick={scrollToGridSection}
@@ -270,7 +271,7 @@ export default function Beranda() {
           <h2 className="text-xl md:text-2xl font-bold mb-2">
             Pertanyaan yang Sering Diajukan
           </h2>
-          <p className="text-gray-500 text-sm md:text-base font-medium">
+          <p className="text-gray-600 text-sm md:text-base font-medium">
             Temukan jawaban dari pertanyaan yang sering diajukan mengenai
             layanan kami.
           </p>

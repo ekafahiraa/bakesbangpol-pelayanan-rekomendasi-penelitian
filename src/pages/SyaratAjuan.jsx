@@ -111,7 +111,7 @@ export default function SyaratAjuan() {
 
         {/* Requirements Section */}
         <div className="text-center">
-          <h2 className="text-xl md:text-2xl font-bold text-[#003285] px-4">
+          <h2 className="text-lg md:text-xl font-bold text-[#003285] px-4">
             Persyaratan untuk Pembuatan Izin Penelitian di BAKESBANGPOL Provinsi
             Jawa Timur:
           </h2>
@@ -246,7 +246,7 @@ export default function SyaratAjuan() {
         {/* Proposal Requirements Section */}
         <div className="bg-[#EEF5FF] pt-5">
           <div className="text-center">
-            <h2 className="text-xl md:text-2xl font-bold text-[#003285] px-4">
+            <h2 className="text-lg md:text-xl font-bold text-[#003285] px-4">
               Ketentuan Proposal Penelitian
             </h2>
           </div>
@@ -289,8 +289,8 @@ export default function SyaratAjuan() {
         {/* Forms and Requirements Buttons */}
         <div className="bg-[#EEF5FF]">
           <div className="text-center">
-            <h2 className="text-xl md:text-2xl font-bold text-[#003285] px-4">
-              Pilih Formulir dan Persyaratan yang Anda Butuhkan
+            <h2 className="text-lg md:text-xl font-bold text-[#003285] px-4">
+              Pilih Formulir dan Persyaratan Sesuai Kebutuhan Anda
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 p-4 m-4 md:px-10 max-w-6xl mx-auto">

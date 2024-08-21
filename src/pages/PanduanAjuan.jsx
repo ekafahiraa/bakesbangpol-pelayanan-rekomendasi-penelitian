@@ -18,13 +18,14 @@ export default function PanduanAjuan() {
       <div className="min-h-screen bg-[#EEF5FF]">
         {/* Header Section */}
         <div
-          className="text-center mb-5 p-5 md:p-10 bg-cover bg-center bg-no-repeat"
+          className="text-center mb-5 p-5 md:p-8 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${FAQBackground})`,
           }}
         >
           <h2 className="text-xl md:text-2xl font-bold">
-            Panduan Layanan Permohonan Rekomendasi Penelitian/Magang
+            Panduan Permohonan Rekomendasi Penelitian/Magang <br />
+            BAKESBANGPOL Provinsi Jawa Timur
           </h2>
         </div>
 
@@ -119,7 +120,7 @@ export default function PanduanAjuan() {
         <div className="bg-[#EEF5FF] py-5">
           <div className="text-center">
             <h2 className="text-lg md:text-xl font-bold text-[#003285] px-4">
-              Proses Pengajuan Rekomendasi Penelitian
+              Proses Pengajuan Permohonan Rekomendasi Penelitian
             </h2>
           </div>
           <div className="grid grid-cols-1 gap-8 p-4 md:px-10 m-4 max-w-6xl mx-auto">
@@ -131,7 +132,8 @@ export default function PanduanAjuan() {
               />
               <div>
                 <h3 className="text-xl md:text-2xl font-semibold mb-4">
-                  Langkah-Langkah Proses Pengajuan Rekomendasi Penelitian
+                  Langkah-Langkah Proses Pengajuan Permohonan Rekomendasi
+                  Penelitian
                 </h3>
                 <div className="h-0.5 bg-gradient-to-r from-blue-500 to-green-500 mb-4"></div>
                 <ol className="list-decimal list-inside">

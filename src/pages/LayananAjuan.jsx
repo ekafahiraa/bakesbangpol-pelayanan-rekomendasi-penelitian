@@ -21,13 +21,13 @@ export default function LayananAjuan() {
       <div className="min-h-screen bg-[#EEF5FF]">
         {/* Header Section */}
         <div
-          className="text-center mb-5 p-5 md:p-10 bg-cover bg-center bg-no-repeat"
+          className="text-center mb-5 p-5 md:p-8 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${FAQBackground})`,
           }}
         >
           <h2 className="text-xl md:text-2xl font-bold">
-            Layanan Permohonan Rekomendasi Magang/Penelitian <br />
+            Layanan Permohonan Rekomendasi Penelitian/Magang <br />
             BAKESBANGPOL Provinsi Jawa Timur
           </h2>
         </div>

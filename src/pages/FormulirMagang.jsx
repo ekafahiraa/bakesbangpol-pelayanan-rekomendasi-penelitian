@@ -588,12 +588,12 @@ export default function FormulirPenelitian() {
         }
       );
       setIsLoading(false); // Hilangkan Loader jika terjadi error
-      console.log(
-        "Cek error: ",
-        error.response?.data,
-        error.response?.status,
-        error.message
-      );
+      // console.log(
+      //   "Cek error: ",
+      //   error.response?.data,
+      //   error.response?.status,
+      //   error.message
+      // );
     }
   };
 
@@ -1119,7 +1119,7 @@ export default function FormulirPenelitian() {
                     name="suratPermohonan"
                     className="form-file-input w-full text-sm"
                     onChange={handleFileChange}
-                    accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
+                    accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.heif,.heic"
                   />
                   {isSuratPermohonanChecked && suratPermohonanFile && (
                     <a
@@ -1128,7 +1128,7 @@ export default function FormulirPenelitian() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center ml-2 text-[#003285] hover:text-[#86B6F6] hover:underline text-sm md:text-base"
                     >
-                      <FaEye size={20} className="mr-1" />
+                      <FaEye size={16} className="mr-1 text-sm md:text-base" />
                       Pratinjau
                     </a>
                   )}
@@ -1160,7 +1160,7 @@ export default function FormulirPenelitian() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center ml-2 text-[#003285] hover:text-[#86B6F6] hover:underline text-sm md:text-base"
                     >
-                      <FaEye size={20} className="mr-1" />
+                      <FaEye size={16} className="mr-1 text-sm md:text-base" />
                       Pratinjau
                     </a>
                   )}
@@ -1188,7 +1188,7 @@ export default function FormulirPenelitian() {
                     name="ktp"
                     className="form-file-input w-full text-sm"
                     onChange={handleFileChange}
-                    accept=".pdf,.jpg,.jpeg,.png"
+                    accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.heif,.heic"
                   />
                   {isKTPChecked && ktpFile && (
                     <a
@@ -1197,7 +1197,7 @@ export default function FormulirPenelitian() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center ml-2 text-[#003285] hover:text-[#86B6F6] hover:underline text-sm md:text-base"
                     >
-                      <FaEye size={20} className="mr-1" />
+                      <FaEye size={16} className="mr-1 text-sm md:text-base" />
                       Pratinjau
                     </a>
                   )}
