@@ -11,7 +11,7 @@ import ScrollUp from "../assets/components/ScrollUp";
 import Loader from "../assets/components/Loader";
 import FAQBackground from "../assets/images/FAQ Background.png";
 
-export default function FormulirPenelitian() {
+export default function FormulirMagang() {
   const navigate = useNavigate();
   const isMobile = useMediaQuery({ maxWidth: 767 }); // Menggunakan media query untuk memeriksa jika perangkat adalah mobile
   const [isLoading, setIsLoading] = useState(false); // State untuk mengelola status loading
@@ -618,7 +618,7 @@ export default function FormulirPenelitian() {
       </div>
 
       {/* Back Button */}
-      <div className={`ml-5 pt-1 ${isMobile ? "mb-5" : "mb-10 lg:w-1/12"}`}>
+      <div className={`ml-4 pt-1 ${isMobile ? "mb-5" : "mb-10 lg:w-1/12"}`}>
         <Link to="/persyaratan-perizinan-rekomendasi-penelitian">
           <div className="flex font-medium items-center text-[#003285] hover:text-[#40A2E3] cursor-pointer">
             {isMobile ? (

@@ -21,19 +21,19 @@ export default function LayananAjuan() {
       <div className="min-h-screen bg-[#EEF5FF]">
         {/* Header Section */}
         <div
-          className="text-center mb-5 p-5 md:p-8 bg-cover bg-center bg-no-repeat"
+          className="text-center mb-5 p-5 md:p-10 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${FAQBackground})`,
           }}
         >
           <h2 className="text-xl md:text-2xl font-bold">
-            Layanan Permohonan Rekomendasi Penelitian/Magang <br />
+            Layanan Permohonan Rekomendasi Magang/Penelitian <br />
             BAKESBANGPOL Provinsi Jawa Timur
           </h2>
         </div>
 
         {/* Back Button */}
-        <div className={`ml-5 pt-1 ${isMobile ? "mb-5" : "mb-10 lg:w-1/12"}`}>
+        <div className={`ml-4 pt-1 ${isMobile ? "mb-5" : "mb-10 lg:w-1/12"}`}>
           <Link to="/">
             <div className="flex font-medium items-center text-[#003285] hover:text-[#40A2E3] cursor-pointer">
               {isMobile ? (
@@ -51,7 +51,7 @@ export default function LayananAjuan() {
         {/* Mobile padding top */}
         {isMobile && <div className="pt-1"></div>}
 
-        {/* Consultation Schedule Section */}
+        {/* Schedule Service Section */}
         <div className="bg-[#EEF5FF]">
           <div className="text-center">
             <h2 className="text-xl md:text-2xl font-bold text-[#003285] px-4">
@@ -75,21 +75,50 @@ export default function LayananAjuan() {
                 </p>
                 <ul className="list-disc list-inside ml-5 mt-2">
                   <li className="text-sm md:text-base">
-                    Senin: 07.15 - 14.30 WIB
+                    Senin: 08.00 - 15.30 WIB
                   </li>
                   <li className="text-sm md:text-base">
-                    Selasa: 07.15 - 14.30 WIB
+                    Selasa: 08.00 - 15.30 WIB
                   </li>
                   <li className="text-sm md:text-base">
-                    Rabu: 07.15 - 14.30 WIB
+                    Rabu: 08.00 - 15.30 WIB
                   </li>
                   <li className="text-sm md:text-base">
-                    Kamis: 07.15 - 14.30 WIB
+                    Kamis: 08.00 - 15.30 WIB
                   </li>
                   <li className="text-sm md:text-base">
-                    Jumat: 07.15 - 14.30 WIB
+                    Jumat: 07.30 - 15.30 WIB
+                  </li>
+                  <li className="text-sm md:text-base">
+                    Sabtu:{" "}
+                    <span className="text-sm md:text-base text-[#FF0000]">
+                      TUTUP
+                    </span>
+                  </li>
+                  <li className="text-sm md:text-base">
+                    Minggu:{" "}
+                    <span className="text-sm md:text-base text-[#FF0000]">
+                      TUTUP
+                    </span>
                   </li>
                 </ul>
+                <p className="text-sm md:text-base mt-4">
+                  <span className="font-semibold">Istirahat:</span>
+                  <ul className="list-disc list-inside ml-5 mt-2">
+                    <li className="text-sm md:text-base text-gray-500">
+                      Senin - Kamis: 12.00 - 13.00 WIB
+                    </li>
+                    <li className="text-sm md:text-base text-gray-500">
+                      Jumat: 11.30 - 13.00 WIB
+                    </li>
+                  </ul>
+                </p>
+                <p className="text-sm md:text-base font-semibold mt-4">
+                  Tanggal merah dan hari besar:{" "}
+                  <span className="text-sm md:text-base text-[#FF0000]">
+                    TUTUP
+                  </span>
+                </p>
               </div>
             </div>
           </div>
@@ -177,7 +206,7 @@ export default function LayananAjuan() {
           <div className="max-w-6xl mx-auto flex justify-center py-8">
             <iframe
               src="https://maps.google.com/maps?q=Jl.%20Putat%20Indah%20Kelurahan%20No.%201,%20Putat%20Gede,%20Kec.%20Sukomanunggal,%20Surabaya,%20Jawa%20Timur&t=&z=13&ie=UTF8&iwloc=&output=embed"
-              width="80%"
+              width="93%"
               height="350"
               style={{ border: 0 }}
               allowFullScreen=""
